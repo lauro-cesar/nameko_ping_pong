@@ -1,0 +1,37 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pytest = "<5.5,>=5.4.1"
+pytest-cov = ">=2.7.1"
+selenium = "*"
+coverage = "*"
+mkdocs = "*"
+sphinx-rtd-theme = "*"
+flake8 = "*"
+flake8-tidy-imports = "*"
+pycodestyle = "*"
+isort = "*"
+black = "*"
+twine = "*"
+transifex-client = "*"
+requests = "*"
+python3-memcached = "*"
+celery = {extras = ["redis"], version = "*"}
+redis = "*"
+nameko = "==v3.0.0-rc9"
+nameko-sqlalchemy = "==1.5.0"
+marshmallow = "==3.10.0"
+pyodbc = "==4.0.30"
+unixodbc-dev = "*"
+Markdown = "*"
+PyYAML = ">=5.1"
+Sphinx = "*"
+Pygments = ">=2.5.1"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"

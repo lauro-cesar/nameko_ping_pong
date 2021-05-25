@@ -4,7 +4,7 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-pytest = "<5.5,>=5.4.1"
+pytest = ">=5.4.1,<5.5"
 pytest-cov = ">=2.7.1"
 selenium = "*"
 coverage = "*"

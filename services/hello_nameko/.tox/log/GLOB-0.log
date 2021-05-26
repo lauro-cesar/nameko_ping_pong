@@ -1,0 +1,70 @@
+action: GLOB, msg: packaging
+cwd: /Users/olarva/Documents/Projects/RodoBens/hello-world-ms/services/hello_nameko
+cmd: /Users/olarva/Documents/Projects/RodoBens/hello-world-ms/services/hello_nameko/.p38/bin/python3.8 setup.py sdist --formats=zip --dist-dir .tox/dist
+running sdist
+running egg_info
+writing hello_nameko.egg-info/PKG-INFO
+writing dependency_links to hello_nameko.egg-info/dependency_links.txt
+writing requirements to hello_nameko.egg-info/requires.txt
+writing top-level names to hello_nameko.egg-info/top_level.txt
+reading manifest file 'hello_nameko.egg-info/SOURCES.txt'
+writing manifest file 'hello_nameko.egg-info/SOURCES.txt'
+warning: sdist: standard file not found: should have one of README, README.rst, README.txt, README.md
+
+running check
+warning: check: missing required meta-data: url
+
+warning: check: missing meta-data: either (author and author_email) or (maintainer and maintainer_email) must be supplied
+
+creating hello_nameko-0.0.1
+creating hello_nameko-0.0.1/hello_nameko.egg-info
+creating hello_nameko-0.0.1/tests
+creating hello_nameko-0.0.1/tests/test_feature
+creating hello_nameko-0.0.1/tests/test_integration
+creating hello_nameko-0.0.1/tests/test_performance
+creating hello_nameko-0.0.1/tests/test_smoke
+creating hello_nameko-0.0.1/tests/test_unit
+copying files to hello_nameko-0.0.1...
+copying setup.py -> hello_nameko-0.0.1
+copying hello_nameko.egg-info/PKG-INFO -> hello_nameko-0.0.1/hello_nameko.egg-info
+copying hello_nameko.egg-info/SOURCES.txt -> hello_nameko-0.0.1/hello_nameko.egg-info
+copying hello_nameko.egg-info/dependency_links.txt -> hello_nameko-0.0.1/hello_nameko.egg-info
+copying hello_nameko.egg-info/requires.txt -> hello_nameko-0.0.1/hello_nameko.egg-info
+copying hello_nameko.egg-info/top_level.txt -> hello_nameko-0.0.1/hello_nameko.egg-info
+copying hello_nameko.egg-info/zip-safe -> hello_nameko-0.0.1/hello_nameko.egg-info
+copying tests/__init__.py -> hello_nameko-0.0.1/tests
+copying tests/test_feature/__init__.py -> hello_nameko-0.0.1/tests/test_feature
+copying tests/test_integration/__init__.py -> hello_nameko-0.0.1/tests/test_integration
+copying tests/test_performance/__init__.py -> hello_nameko-0.0.1/tests/test_performance
+copying tests/test_smoke/__init__.py -> hello_nameko-0.0.1/tests/test_smoke
+copying tests/test_smoke/conftest.py -> hello_nameko-0.0.1/tests/test_smoke
+copying tests/test_smoke/test_env_variables.py -> hello_nameko-0.0.1/tests/test_smoke
+copying tests/test_unit/__init__.py -> hello_nameko-0.0.1/tests/test_unit
+Writing hello_nameko-0.0.1/setup.cfg
+creating '.tox/dist/hello_nameko-0.0.1.zip' and adding 'hello_nameko-0.0.1' to it
+adding 'hello_nameko-0.0.1'
+adding 'hello_nameko-0.0.1/hello_nameko.egg-info'
+adding 'hello_nameko-0.0.1/tests'
+adding 'hello_nameko-0.0.1/PKG-INFO'
+adding 'hello_nameko-0.0.1/setup.py'
+adding 'hello_nameko-0.0.1/setup.cfg'
+adding 'hello_nameko-0.0.1/hello_nameko.egg-info/PKG-INFO'
+adding 'hello_nameko-0.0.1/hello_nameko.egg-info/zip-safe'
+adding 'hello_nameko-0.0.1/hello_nameko.egg-info/SOURCES.txt'
+adding 'hello_nameko-0.0.1/hello_nameko.egg-info/requires.txt'
+adding 'hello_nameko-0.0.1/hello_nameko.egg-info/top_level.txt'
+adding 'hello_nameko-0.0.1/hello_nameko.egg-info/dependency_links.txt'
+adding 'hello_nameko-0.0.1/tests/test_integration'
+adding 'hello_nameko-0.0.1/tests/test_smoke'
+adding 'hello_nameko-0.0.1/tests/test_performance'
+adding 'hello_nameko-0.0.1/tests/test_unit'
+adding 'hello_nameko-0.0.1/tests/test_feature'
+adding 'hello_nameko-0.0.1/tests/__init__.py'
+adding 'hello_nameko-0.0.1/tests/test_integration/__init__.py'
+adding 'hello_nameko-0.0.1/tests/test_smoke/conftest.py'
+adding 'hello_nameko-0.0.1/tests/test_smoke/__init__.py'
+adding 'hello_nameko-0.0.1/tests/test_smoke/test_env_variables.py'
+adding 'hello_nameko-0.0.1/tests/test_performance/__init__.py'
+adding 'hello_nameko-0.0.1/tests/test_unit/__init__.py'
+adding 'hello_nameko-0.0.1/tests/test_feature/__init__.py'
+removing 'hello_nameko-0.0.1' (and everything under it)

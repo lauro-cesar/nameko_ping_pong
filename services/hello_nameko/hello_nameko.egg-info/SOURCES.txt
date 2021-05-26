@@ -1,0 +1,15 @@
+setup.py
+hello_nameko.egg-info/PKG-INFO
+hello_nameko.egg-info/SOURCES.txt
+hello_nameko.egg-info/dependency_links.txt
+hello_nameko.egg-info/requires.txt
+hello_nameko.egg-info/top_level.txt
+hello_nameko.egg-info/zip-safe
+tests/__init__.py
+tests/test_feature/__init__.py
+tests/test_integration/__init__.py
+tests/test_performance/__init__.py
+tests/test_smoke/__init__.py
+tests/test_smoke/conftest.py
+tests/test_smoke/test_env_variables.py
+tests/test_unit/__init__.py

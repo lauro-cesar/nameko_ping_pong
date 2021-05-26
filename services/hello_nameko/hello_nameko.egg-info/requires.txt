@@ -1,0 +1,9 @@
+marshmallow
+dnspython3
+nameko==v3.0.0-rc9
+
+[dev]
+tox
+pytest==4.5.0
+coverage==4.5.3
+flake8==3.7.7
